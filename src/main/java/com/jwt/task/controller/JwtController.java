@@ -20,7 +20,6 @@ public class JwtController {
 	@Autowired
 	private JwtService jwtService;
 
-
 	@PostMapping("/authenticate")
 	public JwtResponse createJwtToken(@RequestBody JwtRequest jwtRequest) throws Exception {
 		
